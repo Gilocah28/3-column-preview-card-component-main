@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Big Shoulders Display', cursive, 'Lexend Deca', sans-serif;
+  width: 100%;
+  height: 100vh;
+  background: hsl(0, 0%, 95%);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainCon {
+  width: 290px;
+  height: 400px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  padding: 35px 20px;
+}
+
+
+.textCon {
+  width: 100%;
+}
+
+
+
+img {
+  margin-top: 20px;
+}
+h3 {
+  font-family: Big Shoulders Display, cursive;
+  font-size: 35px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.btn {
+  margin-top: 75px;
+}
+
+button {
+  padding: 13px 30px;
+  border-radius: 23px;
+  border: none;
+  border: 2px solid white;
+  background-color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  transition: 0.15s ease-in-out;
+}
+
+.sedan {
+  background: hsl(31, 77%, 52%);
+  color: white;
+  border-radius: 10px 0px 0px 10px;
+
+}
+
+.suv {
+  color: white;
+  background: hsl(184, 100%, 22%);
+}
+
+.luxury{
+  color: white;
+  background: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.sedanBtn {
+  color: hsl(31, 77%, 52%);
+}
+
+.sedanBtn:hover {
+  background: hsl(31, 77%, 52%);
+  color: white;
+}
+
+.suvBtn {
+  color: hsl(184, 100%, 22%);
+}
+
+.suvBtn:hover {
+  color: white;
+  background: hsl(184, 100%, 22%);
+}
+
+.luxuryBtn {
+  color: hsl(179, 100%, 13%);
+}
+
+.luxuryBtn:hover {
+  color: white;
+  background: hsl(179, 100%, 13%);
+}
+
+.textCon p{
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .sedan{
+    border-radius: 10px 10px 0px 0px ;
+  }
+
+  .luxury{
+    border-radius: 0px 0px 10px 10px;
+  }
+
+}
+
+
+@media screen and (max-width: 320px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .sedan{
+    border-radius: 10px 10px 0px 0px ;
+  }
+
+  .luxury{
+    border-radius: 0px 0px 10px 10px;
+  }
+
+}
+
+
+
+
