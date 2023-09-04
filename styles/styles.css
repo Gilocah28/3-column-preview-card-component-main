@@ -133,6 +133,9 @@ button {
     justify-content: center;
     align-items: center;
   }
+  .textCon{
+    margin-bottom: 70px;
+  }
   .sedan{
     border-radius: 10px 10px 0px 0px ;
   }
@@ -158,6 +161,9 @@ button {
 
   .luxury{
     border-radius: 0px 0px 10px 10px;
+  }
+  .textCon{
+    margin-bottom: 70px;
   }
 
 }
