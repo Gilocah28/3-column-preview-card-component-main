@@ -24,12 +24,12 @@ body {
 }
 
 .mainCon {
-  width: 290px;
-  height: 400px;
+  width: 320px;
+  height: 450px;
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
-  padding: 35px 20px;
+  padding: 10px 30px;
 }
 
 
@@ -59,7 +59,7 @@ p {
 }
 
 .btn {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 button {
@@ -125,11 +125,13 @@ button {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 635px) {
   .container{
     display: flex;
     flex-direction: column;
     height: auto;
+    justify-content: center;
+    align-items: center;
   }
   .sedan{
     border-radius: 10px 10px 0px 0px ;
@@ -147,6 +149,8 @@ button {
     display: flex;
     flex-direction: column;
     height: auto;
+    justify-content: center;
+    align-items: center;
   }
   .sedan{
     border-radius: 10px 10px 0px 0px ;
