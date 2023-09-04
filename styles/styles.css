@@ -24,12 +24,12 @@ body {
 }
 
 .mainCon {
-  width: 320px;
-  height: 450px;
+  width: 280px;
+  height: 500px;
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
-  padding: 10px 30px;
+  padding: 15px 35px;
 }
 
 
@@ -40,26 +40,26 @@ body {
 
 
 img {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 h3 {
   font-family: Big Shoulders Display, cursive;
   font-size: 35px;
-  margin-top: 20px;
+  margin-top: 40px;
   letter-spacing: 2px;
   font-weight: 700;
 }
 p {
   font-family: 'Lexend Deca', sans-serif;
   font-size: 15px;
-  margin-top: 20px;
+  margin-top: 40px;
   letter-spacing: 0.2px;
   font-weight: 400;
   line-height: 29px;
 }
 
 .btn {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 button {
@@ -162,6 +162,35 @@ button {
 
 }
 
+@media screen and (max-width: 932px) {
+  .btn{
+    margin-top: 70px;
+  }
+
+}
+
+
+@media screen and (max-width: 832px) {
+  .btn{
+    margin-top: 65px;
+  }
+
+}
+
+@media screen and (max-width: 710px) {
+  .btn{
+    margin-top: 30px;
+  }
+
+}
+
+
+@media screen and (max-width: 640px) {
+  .btn{
+    margin-top: 20px;
+  }
+
+}
 
 
 
